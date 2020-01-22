@@ -26,7 +26,7 @@ a:hover {
 }
 
 .card-img {
-  opacity: 60%;
+  opacity: 47%;
 }
 
 #main-text {
@@ -35,7 +35,9 @@ a:hover {
   letter-spacing: 0.1em;
 }
 
-.about-me {
+.about-me,
+.my-work,
+.resume {
   font-family: "poppins", sans-serif;
   background-color: whitesmoke;
   color: #3a0f2b;
@@ -49,7 +51,9 @@ a:hover {
   padding-bottom: 30px;
 }
 
-.bio {
+.bio,
+.skills-list,
+.resume {
   font-family: "raleway", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
@@ -57,15 +61,56 @@ a:hover {
   margin-left: auto;
 }
 
+.project-list {
+  padding-bottom: 30px;
+  width: 1000px;
+  font-family: "raleway", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.skills {
+  font-family: "poppins", sans-serif;
+  background-color: #3a0f2b;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.btn {
+  color: #3a0f2b;
+  border-radius: 10px;
+  border: 0.5px solid #3a0f2b;
+}
+
+.btn:hover {
+  background-color: lightpink;
+  color: #3a0f2b;
+  border: 0.5px solid lightpink;
+}
+
 .sticky-footer {
   text-align: center;
   background-color: #3a0f2b;
   color: whitesmoke;
   border-top: 8px solid lightpink;
+  height: 80px;
 }
 
 @media (min-width: 768px) {
   .bio {
     width: 750px;
+  }
+}
+@media (max-width: 768px) {
+  .project-list {
+    width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-list {
+    width: auto;
   }
 }
