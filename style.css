@@ -1,20 +1,71 @@
 body {
-  font-family: "Montserrat", sans-serif;
-}
-
-#hello {
-  font-family: "Quicksand", sans-serif;
+  font-family: "raleway", sans-serif;
 }
 
 #main-navbar {
-  background-color: #2f0909;
-  border-bottom: 3px solid lightpink;
+  background-color: #3a0f2b;
+  border-bottom: 5px solid lightpink;
 }
 
-i {
+i,
+a {
   color: whitesmoke;
 }
 
-i:hover {
+i:hover,
+a:hover {
   color: lightpink;
+}
+
+#jumbotron-text {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 0.4em;
+  font-size: 60px;
+}
+
+.card-img {
+  opacity: 60%;
+}
+
+#main-text {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.about-me {
+  font-family: "poppins", sans-serif;
+  background-color: whitesmoke;
+  color: #3a0f2b;
+  text-align: center;
+}
+
+.horizontal-line {
+  border-top: 3px solid lightpink;
+  width: 20%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.bio {
+  font-family: "raleway", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sticky-footer {
+  text-align: center;
+  background-color: #3a0f2b;
+  color: whitesmoke;
+  border-top: 8px solid lightpink;
+}
+
+@media (min-width: 768px) {
+  .bio {
+    width: 750px;
+  }
 }
