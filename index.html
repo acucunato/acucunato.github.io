@@ -28,6 +28,12 @@
       src="https://kit.fontawesome.com/8eda10df1b.js"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Alyssa Cucunato</title>
@@ -81,19 +87,22 @@
         <h1 class="pt-4">bio</h1>
         <div class="horizontal-line"></div>
         <div class="bio">
-          My name is Alyssa Cucunato. I am from New Jersey, but am now a
-          Philadelphia resident. I graduated from Philadelphia University with a
-          Bachelor of Science in Fashion Merchandising.
+          Hi! My name is Alyssa. I started my journey in web development at the
+          University of Pennsylvania's intesive Coding Bootcamp in Philadelphia,
+          PA. I have experience in HTML5, Javascript, Node.js and APIs. I have a
+          passion for learning and am always eager to find new ways to master my
+          coding skills while keeping up with the latest technologies. I love
+          problem solving, visual merchandising, and creative thinking to
+          achieve results.
+          <br />
           <br />
 
-          I have over 10 years of experience working in the fashion industry as
-          a Store Manager and more recently a Store Operations Specialist. I
-          love problem solving, visual merchandising, and creative thinking to
-          achieve results. While I enjoy and love the industry, it became
-          mundane, I wanted to be challenged again so it was time for a much
-          needed a career change. I am hoping to continue to utilize skills
-          learned in my previous industry to embark on this new journey in
-          coding and web development.
+          Prior to web development, I graduated from Philadelphia University
+          with a Bachelor of Science in Fashion Merchandising. I have over 10
+          years of experience working in the fashion industry as a Store Manager
+          and more recently a Store Operations Specialist. I am hoping to
+          continue to utilize skills learned in my previous industry to embark
+          on this new journey in coding and web development.
           <br /><br /><br />
         </div>
       </div>
@@ -104,10 +113,22 @@
         <h1 class="pt-4">skills</h1>
         <div class="horizontal-line"></div>
         <div class="skills-list">
-          stuff <br />
-          More skills <br />
-          more skills<br />
-
+          <div class="row">
+            <div class="col md-3">
+              <i class="icon-html5 fa-3x"></i><br />
+              Developing modern UI with a mobile-first responsive design with
+              HTML, CSS, Bootstrap and Media Queries.<br />
+            </div>
+            <div class="col md-3">
+              <i class="icon-javascript-alt fa-3x"></i><br />
+              Writing client-side jQuery for interactivity and server-side
+              JavaScript to solve problems.<br />
+            </div>
+            <div class="col md-3">
+              <i class="icon-nodejs fa-3x"></i><br />
+              Creating dynamic web applications with the use of NodeJS.
+            </div>
+          </div>
           <br /><br /><br />
         </div>
       </div>
@@ -131,60 +152,130 @@
               ></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  src="assets/img/landingpage.png"
-                  class="d-block w-100"
-                  alt="Pooch Quest"
-                />
+                <a
+                  href="https://acucunato.github.io/pooch-quest/"
+                  target="_blank"
+                  ><img
+                    src="assets/img/landingpage.png"
+                    class="d-block w-100"
+                    alt="Pooch Quest"
+                /></a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  </p>
+                  <div class="project-underline"></div>
+                  <div class="caption">
+                    <h5 class="heading">Pooch Quest</h5>
+                    <p>
+                      Pooch Quest is an application that assists the user in
+                      finding their perfect dog. As soon as the user searches,
+                      Pooch Quest gives relevant information about their desired
+                      breed along with adoptable dogs in their area.
+                    </p>
+                    <p>
+                      tech used: HTML, CSS, Materalize, Javascript, JQuery,
+                      API/AJAX Requests <br />
+                      github repo:
+                      <a href="https://github.com/acucunato/pooch-quest">
+                        click here
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  src="assets/img/weather_dashboard.png"
-                  class="d-block w-100"
-                  alt="Weather Dashboard"
-                />
+                <a
+                  href="https://acucunato.github.io/weather-dashboard/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/img/weather_dashboard.png"
+                    class="d-block w-100"
+                    alt="Weather Dashboard"
+                /></a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
+                  <div class="project-underline"></div>
+                  <div class="caption">
+                    <h5 class="heading">Weather Dashboard</h5>
+                    <p>
+                      A weather dashboard application with search functionality
+                      to find current weather conditions and the future weather
+                      outlook for multiple cities. This app runs in the browser
+                      and features dynamically updated HTML and CSS powered by
+                      jQuery using OpenWeather API.
+                    </p>
+                    <p>
+                      tech used: HTML, CSS, Bootstrap, Javascript, JQuery,
+                      API/AJAX Requests <br />
+                      github repo:
+                      <a href="https://github.com/acucunato/weather-dashboard">
+                        click here
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  src="assets/img/hp-game.png"
-                  class="d-block w-100"
-                  alt="Harry Potter Trivia Game"
-                />
+                <a
+                  href="https://acucunato.github.io/trivia-quiz/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/img/hp-game.png"
+                    class="d-block w-100"
+                    alt="Harry Potter Trivia Game"
+                /></a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
+                  <div class="project-underline"></div>
+                  <div class="caption">
+                    <h5 class="heading">Harry Potter Trivia Quiz</h5>
+                    <p>
+                      Harry Potter Trivia Quiz is an interactive multiple choice
+                      question quiz. The quiz is timer-based and stores high
+                      scores in client-side local storage.
+                    </p>
+                    <p>
+                      tech used: HTML, CSS, Bootstrap, Javascript <br />
+                      github repo:
+                      <a href="https://github.com/acucunato/trivia-quiz">
+                        click here
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  src="assets/img/password-generator-photo.png"
-                  class="d-block w-100"
-                  alt="Password Generator"
-                />
+                <a
+                  href="https://acucunato.github.io/password-generator/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/img/password-generator-photo.png"
+                    class="d-block w-100"
+                    alt="Password Generator"
+                /></a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
+                  <div class="project-underline"></div>
+                  <div class="caption">
+                    <h5 class="heading">Password Generator</h5>
+                    <p>
+                      This application will generate a random password based on
+                      user-selected criteria. User will be prompted to choose a
+                      desired length and types of characters to include in the
+                      password. Characters in the password will then be randomly
+                      chosen in a random order based on user selection and
+                      desired length.
+                    </p>
+                    <p>
+                      tech used: HTML, CSS, Bootstrap, Javascript <br />
+                      github repo:
+                      <a href="https://github.com/acucunato/password-generator">
+                        click here
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -223,7 +314,7 @@
         <div class="horizontal-line"></div>
         <a
           class="navbar-brand"
-          href="https://www.keepandshare.com/doc20/20055/alyssa-cucunato-resume-pdf-128k?da=y"
+          href="assets/alyssa_cucunato_resumeWD.pdf"
           target="_blank"
         >
           <button type="button" class="btn btn-outline btn-lg">
