@@ -123,7 +123,7 @@ a:hover {
   background-color: #3a0f2b;
   color: whitesmoke;
   border-top: 8px solid lightpink;
-  height: 80px;
+  height: 90px;
 }
 
 @media (min-width: 768px) {
