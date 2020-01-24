@@ -135,10 +135,16 @@ a:hover {
   .project-list {
     width: auto;
   }
+  .carousel-caption {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 576px) {
   .project-list {
     width: auto;
+  }
+  .carousel-caption {
+    font-size: 10px;
   }
 }
