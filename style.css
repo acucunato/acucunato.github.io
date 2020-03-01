@@ -3,8 +3,8 @@ body {
 }
 
 #main-navbar {
-  background-color: #3a0f2b;
-  border-bottom: 5px solid lightpink;
+  background-color: #9a9a9a;
+  border-bottom: 5px solid #ffe8e5;
 }
 
 i,
@@ -14,25 +14,26 @@ a {
 
 i:hover,
 a:hover {
-  color: lightpink;
+  color: #ffe8e5;
 }
 
 #jumbotron-text {
   font-family: "Abril Fatface", cursive;
   text-align: center;
-  color: whitesmoke;
+  color: #b86b77;
   letter-spacing: 0.4em;
   font-size: 60px;
 }
 
-.card-img {
-  opacity: 47%;
-}
+/* .card-img {
+  /* opacity: 47%; */
+/* } */
 
 #main-text {
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.1em;
+  color: #9a9a9a;
 }
 
 .about-me,
@@ -40,12 +41,12 @@ a:hover {
 .resume {
   font-family: "poppins", sans-serif;
   background-color: whitesmoke;
-  color: #3a0f2b;
+  color: #b86b77;
   text-align: center;
 }
 
 .horizontal-line {
-  border-top: 3px solid lightpink;
+  border-top: 3px solid #f6cfca;
   width: 20%;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -73,28 +74,28 @@ a:hover {
 
 .skills {
   font-family: "poppins", sans-serif;
-  background-color: #3a0f2b;
+  background-color: #9a9a9a;
   color: whitesmoke;
   text-align: center;
 }
 
 .btn {
-  color: #3a0f2b;
+  color: #b86b77;
   border-radius: 10px;
-  border: 0.5px solid #3a0f2b;
+  border: 0.5px solid #b86b77;
 }
 
 .btn:hover {
-  background-color: lightpink;
-  color: #3a0f2b;
-  border: 0.5px solid lightpink;
+  background-color: #ffe8e5;
+  color: #b86b77;
+  border: 0.5px solid #b86b77;
 }
 
 .project-underline {
   position: absolute;
   top: 23%;
   left: 40%;
-  border-top: 3px solid lightpink;
+  border-top: 3px solid #f6cfca;
   width: 20%;
 }
 
@@ -102,27 +103,27 @@ a:hover {
   color: whitesmoke;
   font-weight: bold;
   font-family: "poppins", sans-serif;
-  background-color: #3a0f2b;
+  background-color: #9a9a9a;
 }
 
 .caption {
   font-family: "raleway", sans-serif;
   color: whitesmoke;
-  background-color: #3a0f2b;
+  background-color: #9a9a9a;
   padding: 10px;
 }
 
 .icon-html5,
 .icon-javascript-alt,
 .icon-nodejs {
-  color: lightpink;
+  color: #ffe8e5;
 }
 
 .sticky-footer {
   text-align: center;
-  background-color: #3a0f2b;
+  background-color: #9a9a9a;
   color: whitesmoke;
-  border-top: 8px solid lightpink;
+  border-top: 8px solid #ffe8e5;
   height: 90px;
 }
 
