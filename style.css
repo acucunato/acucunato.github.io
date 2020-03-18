@@ -1,0 +1,202 @@
+body {
+  font-family: "raleway", sans-serif;
+  position: relative;
+}
+
+#main-navbar {
+  background-color: #9a9a9a;
+  border-bottom: 5px solid #ffe8e5;
+}
+
+i,
+a {
+  color: whitesmoke;
+}
+
+i:hover,
+a:hover {
+  color: #ffe8e5;
+  text-decoration: none;
+  transition: filter 0.5s ease;
+}
+
+.scroll-text {
+  font-size: 18px;
+}
+
+#jumbotron-text {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  color: #b86b77;
+  letter-spacing: 0.4em;
+  font-size: 60px;
+}
+
+#main-text {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1em;
+  color: #9a9a9a;
+}
+
+.about-me,
+.my-work,
+.resume {
+  font-family: "poppins", sans-serif;
+  background-color: whitesmoke;
+  color: #b86b77;
+  text-align: center;
+}
+
+.horizontal-line {
+  border-top: 3px solid #f6cfca;
+  width: 20%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.vertical-line {
+  border-right: 3px solid #f6cfca;
+  width: 20%;
+  margin: 10px;
+}
+
+.bio,
+.skills-list,
+.resume {
+  font-family: "raleway", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project-list {
+  padding-bottom: 30px;
+  font-family: "raleway", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-port {
+  border-radius: 5%;
+  filter: grayscale(100%);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.img-port:hover {
+  transition: filter 0.5s ease;
+  filter: grayscale(0%);
+}
+
+.skills {
+  font-family: "poppins", sans-serif;
+  background-color: #9a9a9a;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.btn {
+  color: #b86b77;
+  border-radius: 10px;
+  border: 0.5px solid #b86b77;
+}
+
+.btn:hover {
+  background-color: #ffe8e5;
+  color: #b86b77;
+  border: 0.5px solid #b86b77;
+  transition: filter 0.2s ease;
+}
+
+.project-underline {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  border-top: 3px solid #f6cfca;
+  width: 20%;
+}
+
+.heading {
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  background-color: #9a9a9a;
+}
+
+.mod-head {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.mod-btn {
+  color: #b86b77;
+}
+
+.mod-btn:hover {
+  color: #b86b77;
+}
+
+.modal-content {
+  background-color: whitesmoke;
+  border-radius: 5%;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: 0 none;
+  margin-bottom: 20px;
+}
+
+.mod-pic {
+  height: 150px;
+  width: 300px;
+}
+
+.caption {
+  font-family: "raleway", sans-serif;
+  color: whitesmoke;
+  background-color: #9a9a9a;
+  padding: 10px;
+}
+
+.icon-html5,
+.icon-javascript-alt,
+.icon-nodejs {
+  color: #ffe8e5;
+}
+
+.sticky-footer {
+  text-align: center;
+  background-color: #9a9a9a;
+  color: whitesmoke;
+  border-top: 8px solid #ffe8e5;
+  height: 90px;
+}
+
+@media (min-width: 768px) {
+  .bio {
+    width: 750px;
+  }
+}
+@media (max-width: 768px) {
+  .project-list {
+    width: auto;
+  }
+  .carousel-caption {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-list {
+    width: auto;
+  }
+  .carousel-caption {
+    font-size: 10px;
+  }
+}
