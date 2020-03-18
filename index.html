@@ -35,15 +35,13 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico" />
 
     <title>Alyssa Cucunato</title>
   </head>
   <body>
     <!-- nav bar -->
-    <nav
-      class="navbar navbar-light sticky-top justify-content-end"
-      id="main-navbar"
-    >
+    <nav class="navbar navbar-light sticky-top" id="main-navbar">
       <div class="nav-icons p-3 mr">
         <a
           class="navbar-brand"
@@ -63,6 +61,12 @@
         <a class="navbar-brand" href="mailto:acucunato18@gmail.com">
           <i class="far fa-envelope fa-2x"></i>
         </a>
+      </div>
+      <div class="justify-content-end scroll-text">
+        <a href="#bio">bio</a><span class="vertical-line"></span>
+        <a href="#skills">skills</a><span class="vertical-line"></span>
+        <a href="#mywork">my work</a><span class="vertical-line"></span>
+        <a href="#contact">contact</a>
       </div>
     </nav>
     <div class="card text-white">
@@ -138,8 +142,214 @@
       <div class="my-work">
         <h1 class="pt-4">my work</h1>
         <div class="horizontal-line"></div>
+        <!-- project list start -->
         <div class="project-list">
-          <div
+          <div class="row">
+            <div class="col-md-4">
+              <a href="https://acucunato.github.io/pooch-quest/" target="_blank"
+                ><img
+                  src="assets/img/landingpage.png"
+                  class="d-block w-100 img-port"
+                  alt="Pooch Quest"
+              /></a>
+            </div>
+            <div class="col-md-4">
+              <a
+                href="https://eatdaburger-acucunato.herokuapp.com/"
+                target="_blank"
+                ><img
+                  src="assets/img/burgerlogger.png"
+                  class="d-block w-100 img-port"
+                  alt="Burger Logger"
+              /></a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://grouptriptips.herokuapp.com/" target="_blank">
+                <img
+                  src="assets/img/triptips.png"
+                  class="d-block w-100 img-port"
+                  alt="Trip Tips"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <!-- HP QUIZ trigger modal -->
+              <a data-toggle="modal" data-target="#modal3">
+                <img
+                  src="assets/img/hp-game.png"
+                  class="d-block w-100 img-port"
+                  alt="Harry Potter Trivia Game"
+              /></a>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modal3"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <h5 class="mod-head">Harry Potter Trivia Quiz</h5>
+                    <div class="project-underline"></div>
+                    <div class="modal-body">
+                      <img src="assets/img/hp-game.png" class="mod-pic" />
+                      <br />
+                      <p>
+                        Harry Potter Trivia Quiz is an interactive multiple
+                        choice question quiz. The quiz is timer-based and stores
+                        high scores in client-side local storage.
+                      </p>
+                      Tech Used: HTML, CSS, Bootstrap, Javascript <br />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn">
+                        <a
+                          href="https://acucunato.github.io/trivia-quiz/"
+                          target="_blank"
+                          class="mod-btn"
+                        >
+                          View The App
+                        </a>
+                      </button>
+                      <button type="button" class="btn">
+                        <a
+                          href="https://github.com/acucunato/trivia-quiz"
+                          target="_blank"
+                          class="mod-btn"
+                        >
+                          GitHub Repo
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- end -->
+            </div>
+            <div class="col-md-4">
+              <a data-toggle="modal" data-target="#modal2">
+                <img
+                  src="assets/img/teamprofilegen.png"
+                  class="d-block w-100 img-port"
+                  alt="Team Profile Generator"
+              /></a>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modal2"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <h5 class="mod-head">Team Profile Generator</h5>
+                    <div class="project-underline"></div>
+                    <div class="modal-body">
+                      <img
+                        src="assets/gif/team-gen-delpoyed.gif"
+                        class="mod-pic"
+                      />
+                      <br />
+                      <p>
+                        This application is a Node CLI that takes in information
+                        about Software Engineering Team employees and generates
+                        an HTML webpage which displays summaries for each
+                        person. The application will be invoked with the
+                        following command: node app.js
+                      </p>
+                      Tech Used: HTML, CSS, Bootstrap, Javascript, JQuery, Node,
+                      NPM Packages (inquirer)<br />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn">
+                        <a
+                          href="https://github.com/acucunato/team-profile-generator"
+                          target="_blank"
+                          class="mod-btn"
+                        >
+                          GitHub Repo
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <!-- weather dashboard trigger modal -->
+              <a data-toggle="modal" data-target="#modal1">
+                <img
+                  src="assets/img/weather_dashboard.png"
+                  class="d-block w-100 img-port"
+                  alt="Weather Dashboard"
+              /></a>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modal1"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <h5 class="mod-head">Weather Dashboard</h5>
+                    <div class="project-underline"></div>
+                    <div class="modal-body">
+                      <img
+                        src="assets/img/weather_dashboard.png"
+                        class="mod-pic"
+                      />
+                      <br />
+                      <p>
+                        A weather dashboard application with search
+                        functionality to find current weather conditions and the
+                        future weather outlook for multiple cities. This app
+                        runs in the browser and features dynamically updated
+                        HTML and CSS powered by jQuery using OpenWeather API.
+                      </p>
+                      Tech Used: HTML, CSS, Bootstrap, Javascript, JQuery,
+                      API/AJAX Requests <br />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn">
+                        <a
+                          href="https://acucunato.github.io/weather-dashboard/"
+                          target="_blank"
+                          class="mod-btn"
+                        >
+                          View The App
+                        </a>
+                      </button>
+                      <button type="button" class="btn">
+                        <a
+                          href="https://github.com/acucunato/weather-dashboard"
+                          target="_blank"
+                          class="mod-btn"
+                        >
+                          GitHub Repo
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end MODAL -->
+            </div>
+          </div>
+
+          <!-- CAROUSEL -->
+          <!-- <div
             id="carouselExampleCaptions"
             class="carousel slide"
             data-ride="carousel"
@@ -212,27 +422,7 @@
                 >
                   <img
                     src="assets/img/weather_dashboard.png"
-                    class="d-block w-100"
-                    alt="Weather Dashboard"
-                /></a>
-                <div class="carousel-caption">
-                  <div class="project-underline"></div>
-                  <div class="caption">
-                    <h5 class="heading">Weather Dashboard</h5>
-                    <p>
-                      A weather dashboard application with search functionality
-                      to find current weather conditions and the future weather
-                      outlook for multiple cities. This app runs in the browser
-                      and features dynamically updated HTML and CSS powered by
-                      jQuery using OpenWeather API.
-                    </p>
-                    <p>
-                      tech used: HTML, CSS, Bootstrap, Javascript, JQuery,
-                      API/AJAX Requests <br />
-                      github repo:
-                      <a href="https://github.com/acucunato/weather-dashboard">
-                        click here
-                      </a>
+\
                     </p>
                   </div>
                 </div>
@@ -325,6 +515,8 @@
             </a>
           </div>
         </div>
+        <!-- end of project -->
+        </div>
       </div>
     </div>
 
@@ -335,6 +527,7 @@
         <a
           class="navbar-brand"
           href="assets/alyssa_cucunato_resumeWD.pdf"
+          download
           target="_blank"
         >
           <button type="button" class="btn btn-outline btn-lg">
