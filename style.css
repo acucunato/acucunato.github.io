@@ -1,5 +1,6 @@
 body {
   font-family: "raleway", sans-serif;
+  position: relative;
 }
 
 #main-navbar {
@@ -15,6 +16,12 @@ a {
 i:hover,
 a:hover {
   color: #ffe8e5;
+  text-decoration: none;
+  transition: filter 0.5s ease;
+}
+
+.scroll-text {
+  font-size: 18px;
 }
 
 #jumbotron-text {
@@ -24,10 +31,6 @@ a:hover {
   letter-spacing: 0.4em;
   font-size: 60px;
 }
-
-/* .card-img {
-  /* opacity: 47%; */
-/* } */
 
 #main-text {
   text-align: center;
@@ -52,6 +55,12 @@ a:hover {
   padding-bottom: 30px;
 }
 
+.vertical-line {
+  border-right: 3px solid #f6cfca;
+  width: 20%;
+  margin: 10px;
+}
+
 .bio,
 .skills-list,
 .resume {
@@ -64,12 +73,22 @@ a:hover {
 
 .project-list {
   padding-bottom: 30px;
-  width: 1000px;
   font-family: "raleway", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.img-port {
+  border-radius: 5%;
+  filter: grayscale(100%);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.img-port:hover {
+  transition: filter 0.5s ease;
+  filter: grayscale(0%);
 }
 
 .skills {
@@ -89,11 +108,12 @@ a:hover {
   background-color: #ffe8e5;
   color: #b86b77;
   border: 0.5px solid #b86b77;
+  transition: filter 0.2s ease;
 }
 
 .project-underline {
   position: absolute;
-  top: 23%;
+  top: 10%;
   left: 40%;
   border-top: 3px solid #f6cfca;
   width: 20%;
@@ -104,6 +124,37 @@ a:hover {
   font-weight: bold;
   font-family: "poppins", sans-serif;
   background-color: #9a9a9a;
+}
+
+.mod-head {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.mod-btn {
+  color: #b86b77;
+}
+
+.mod-btn:hover {
+  color: #b86b77;
+}
+
+.modal-content {
+  background-color: whitesmoke;
+  border-radius: 5%;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: 0 none;
+  margin-bottom: 20px;
+}
+
+.mod-pic {
+  height: 150px;
+  width: 300px;
 }
 
 .caption {
