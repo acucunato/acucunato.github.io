@@ -24,6 +24,14 @@ a:hover {
   font-size: 18px;
 }
 
+.navbar-toggler {
+  background-color: whitesmoke;
+}
+
+.navbar-toggler:hover {
+  background-color: #ffe8e5;
+}
+
 #jumbotron-text {
   font-family: "Abril Fatface", cursive;
   text-align: center;
@@ -186,10 +194,16 @@ a:hover {
   .project-list {
     width: auto;
   }
+  #icon-row {
+    display: grid;
+  }
 }
 
 @media (max-width: 576px) {
   .project-list {
     width: auto;
+  }
+  #icon-row {
+    display: grid;
   }
 }
