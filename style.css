@@ -55,10 +55,9 @@ a:hover {
   padding-bottom: 30px;
 }
 
-.vertical-line {
-  border-right: 3px solid #f6cfca;
-  width: 20%;
-  margin: 10px;
+.active {
+  font-weight: bold;
+  color: #f6cfca;
 }
 
 .bio,
