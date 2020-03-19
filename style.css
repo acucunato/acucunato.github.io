@@ -97,6 +97,18 @@ a:hover {
   background-color: #9a9a9a;
   color: whitesmoke;
   text-align: center;
+  padding: 25px;
+}
+
+#bio::before,
+#skills::before,
+#mywork::before,
+#contact::before {
+  display: block;
+  content: " ";
+  margin-top: -105px;
+  height: 105px;
+  visibility: hidden;
 }
 
 .btn {

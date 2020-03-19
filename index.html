@@ -39,7 +39,7 @@
 
     <title>Alyssa Cucunato</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#main-navbar" data-offset="105">
     <!-- nav bar -->
     <nav class="navbar navbar-light sticky-top" id="main-navbar">
       <div class="nav-icons p-3 mr">
@@ -118,7 +118,7 @@
         <h1 class="pt-4">skills</h1>
         <div class="horizontal-line"></div>
         <div class="skills-list">
-          <div class="row">
+          <div class="row" id="icon-row">
             <div class="col md-3">
               <i class="icon-html5 fa-3x"></i><br />
               Developing modern UI with a mobile-first responsive design with
@@ -139,8 +139,8 @@
       </div>
     </div>
 
-    <div class="wrapper">
-      <div class="my-work scrollspy" id="mywork">
+    <div class="wrapper" id="mywork">
+      <div class="my-work">
         <h1 class="pt-4">my work</h1>
         <div class="horizontal-line"></div>
         <!-- project list start -->
@@ -542,17 +542,12 @@
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
