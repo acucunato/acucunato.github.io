@@ -131,13 +131,6 @@ a:hover {
   width: 20%;
 }
 
-.heading {
-  color: whitesmoke;
-  font-weight: bold;
-  font-family: "poppins", sans-serif;
-  background-color: #9a9a9a;
-}
-
 .mod-head {
   text-align: center;
   font-family: "poppins", sans-serif;
@@ -169,13 +162,6 @@ a:hover {
   width: 300px;
 }
 
-.caption {
-  font-family: "raleway", sans-serif;
-  color: whitesmoke;
-  background-color: #9a9a9a;
-  padding: 10px;
-}
-
 .icon-html5,
 .icon-javascript-alt,
 .icon-nodejs,
@@ -200,16 +186,10 @@ a:hover {
   .project-list {
     width: auto;
   }
-  .carousel-caption {
-    font-size: 10px;
-  }
 }
 
 @media (max-width: 576px) {
   .project-list {
     width: auto;
-  }
-  .carousel-caption {
-    font-size: 10px;
   }
 }
