@@ -39,6 +39,47 @@ $(document).ready(function() {
       );
     }
   });
+
+  $("body").scrollspy({ target: ".about-me", offset: 105 });
+
+  $(".about-me a").on("click", function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      const hash = this.hash;
+
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+
+  $("body").scrollspy({ target: ".skills", offset: 105 });
+
+  $(".skills a").on("click", function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      const hash = this.hash;
+
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+
   wow = new WOW({
     boxClass: "wow", // default
     animateClass: "animated", // default

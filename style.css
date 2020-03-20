@@ -23,6 +23,9 @@ a:hover {
 .scroll-text {
   font-size: 18px;
 }
+.fa-arrow-circle-down {
+  color: #b86b77;
+}
 
 .navbar-toggler {
   background-color: whitesmoke;
