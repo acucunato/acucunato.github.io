@@ -3,9 +3,15 @@ body {
   position: relative;
 }
 
-#main-navbar {
-  background-color: #9a9a9a;
+nav {
+  background-color: lightgrey;
   border-bottom: 5px solid #ffe8e5;
+  height: 80px;
+  transition: background 0.5s;
+}
+
+nav.scrolled {
+  background-color: #9a9a9a;
 }
 
 i,
