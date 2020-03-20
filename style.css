@@ -212,6 +212,14 @@ a:hover {
   #icon-row {
     display: grid;
   }
+
+  #jumbotron-text {
+    font-size: 45px;
+  }
+
+  #main-text {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -220,5 +228,12 @@ a:hover {
   }
   #icon-row {
     display: grid;
+  }
+  #jumbotron-text {
+    font-size: 45px;
+  }
+
+  #main-text {
+    font-size: 20px;
   }
 }
