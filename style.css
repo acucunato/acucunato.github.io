@@ -23,7 +23,12 @@ a:hover {
 .scroll-text {
   font-size: 18px;
 }
+
 .fa-arrow-circle-down {
+  color: #b86b77;
+}
+
+.fa-arrow-circle-down::after {
   color: #b86b77;
 }
 
