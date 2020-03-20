@@ -6,7 +6,6 @@ body {
 nav {
   background-color: lightgrey;
   border-bottom: 5px solid #ffe8e5;
-  height: 80px;
   transition: background 0.5s;
 }
 
