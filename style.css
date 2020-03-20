@@ -54,6 +54,8 @@ a:hover {
   background-color: whitesmoke;
   color: #b86b77;
   text-align: center;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .horizontal-line {
@@ -104,7 +106,8 @@ a:hover {
   background-color: #9a9a9a;
   color: whitesmoke;
   text-align: center;
-  padding: 25px;
+  padding-bottom: 100px;
+  padding-top: 80px;
 }
 
 #bio::before,
@@ -116,6 +119,10 @@ a:hover {
   margin-top: -105px;
   height: 105px;
   visibility: hidden;
+}
+
+.fa-arrow-down {
+  color: #b86b77;
 }
 
 .btn {

@@ -29,6 +29,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
+
+    <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js"></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"
@@ -45,7 +48,7 @@
       class="navbar navbar-expand-lg navbar-light sticky-top"
       id="main-navbar"
     >
-      <div class="nav-icons p-3 mr">
+      <div class="nav-icons p-3 mr wow fadeIn delay-2s">
         <a
           class="navbar-brand"
           href="https://github.com/acucunato"
@@ -79,7 +82,7 @@
       </button>
 
       <div
-        class="scroll-text collapse navbar-collapse justify-content-end"
+        class="scroll-text collapse navbar-collapse justify-content-end wow fadeIn delay-2s"
         id="navbarSupportedContent"
       >
         <ul class="nav">
@@ -108,22 +111,34 @@
       />
       <div class="card-img-overlay">
         <br /><br /><br />
-        <h1 class="card-title p-3" id="jumbotron-text">
+        <h1 class="card-title p-3 wow rubberBand" id="jumbotron-text">
           alyssa cucunato
         </h1>
         <div class="horizontal-line"></div>
-        <h4 class="card-text p-3" id="main-text">
+        <h4 class="card-text p-3 wow fadeIn delay-1s" id="main-text">
           ambitious full-stack web developer with a passion for creating and
           learning
+          <br /><br /><br /><br />
+          <div id="bio-btn">
+            <a href="#bio">
+              <button
+                type="button"
+                class="btn btn-outline btn-lg wow fadeIn delay-2s"
+              >
+                <i class="fas fa-arrow-down"></i>
+                get to know me
+              </button></a
+            >
+          </div>
         </h4>
       </div>
     </div>
 
     <div class="wrapper" id="bio">
       <div class="about-me">
-        <h1 class="pt-4">bio</h1>
+        <h1 class="pt-4 wow bounceInUp">bio</h1>
         <div class="horizontal-line"></div>
-        <div class="bio">
+        <div class="bio wow fadeIn delay-1s">
           Hi! My name is Alyssa. I started my journey in web development at the
           University of Pennsylvania's intensive Coding Bootcamp in
           Philadelphia, PA. I have experience in HTML5, Javascript, Node.js,
@@ -145,25 +160,25 @@
 
     <div class="wrapper" id="skills">
       <div class="skills">
-        <h1 class="pt-4">skills</h1>
+        <h1 class="pt-4 wow bounceInUp">skills</h1>
         <div class="horizontal-line"></div>
         <div class="skills-list">
           <div class="row" id="icon-row">
-            <div class="col md-3">
+            <div class="col md-3 wow flipInX delay-1s">
               <i class="icon-html5 fa-3x"></i><br />
               Developing modern UI with a mobile-first responsive design with
               HTML, CSS, Bootstrap and Media Queries.<br />
             </div>
-            <div class="col md-3">
+            <div class="col md-3 wow flipInX delay-2s">
               <i class="icon-javascript-alt fa-3x"></i><br />
               Writing client-side jQuery for interactivity and server-side
               JavaScript to solve problems.<br />
             </div>
-            <div class="col md-3">
+            <div class="col md-3 wow flipInX delay-3s">
               <i class="icon-nodejs fa-3x"></i><br />
               Creating dynamic web applications with the use of NodeJS.
             </div>
-            <div class="col md-3">
+            <div class="col md-3 wow flipInX delay-4s">
               <i class="icon-database fa-3x"></i><br />
               Storing, retrieving, and connecting servers to databases such as
               mySQL and MongoDB to perform queries.
@@ -176,10 +191,10 @@
 
     <div class="wrapper" id="mywork">
       <div class="my-work">
-        <h1 class="pt-4">my work</h1>
+        <h1 class="pt-4 wow bounceInUp">my work</h1>
         <div class="horizontal-line"></div>
         <!-- project list start -->
-        <div class="project-list">
+        <div class="project-list wow fadeIn delay-1s">
           <div class="row">
             <div class="col-md-4">
               <!-- poochquest -->
@@ -551,15 +566,17 @@
 
     <div class="wrapper" id="contact">
       <div class="resume">
-        <h1 class="pt-4">let's get in touch</h1>
+        <h1 class="pt-4 wow bounceInUp">let's get in touch</h1>
         <div class="horizontal-line"></div>
         <a
-          class="navbar-brand"
           href="assets/Alyssa-Cucunato-Resume-Dev.pdf"
           download
           target="_blank"
         >
-          <button type="button" class="btn btn-outline btn-lg">
+          <button
+            type="button"
+            class="btn btn-outline btn-lg wow tada delay-1s"
+          >
             download my resume
           </button></a
         >
