@@ -4,13 +4,13 @@ body {
 }
 
 nav {
-  background-color: lightgrey;
-  border-bottom: 5px solid #ffe8e5;
+  background-color: #d5d9dd;
+  border-bottom: 5px solid #f3cfd0;
   transition: background 0.5s;
 }
 
 nav.scrolled {
-  background-color: #9a9a9a;
+  background-color: #bcbcbf;
 }
 
 i,
@@ -20,7 +20,7 @@ a {
 
 i:hover,
 a:hover {
-  color: #ffe8e5;
+  color: #f3cfd0;
   text-decoration: none;
   transition: filter 0.5s ease;
 }
@@ -30,11 +30,14 @@ a:hover {
 }
 
 .fa-arrow-circle-down {
-  color: #b86b77;
+  color: #f3cfd0;
+}
+.fa-arrow-circle-down:hover {
+  color: #ea6f7b;
 }
 
 .fa-arrow-circle-down::after {
-  color: #b86b77;
+  color: #ea6f7b;
 }
 
 .navbar-toggler {
@@ -42,13 +45,13 @@ a:hover {
 }
 
 .navbar-toggler:hover {
-  background-color: #ffe8e5;
+  background-color: #f3cfd0;
 }
 
 #jumbotron-text {
   font-family: "Abril Fatface", cursive;
   text-align: center;
-  color: #b86b77;
+  color: #ea6f7b;
   letter-spacing: 0.4em;
   font-size: 60px;
 }
@@ -57,7 +60,7 @@ a:hover {
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.1em;
-  color: #9a9a9a;
+  color: #ea6f7b;
 }
 
 .about-me,
@@ -65,14 +68,14 @@ a:hover {
 .resume {
   font-family: "poppins", sans-serif;
   background-color: whitesmoke;
-  color: #b86b77;
+  color: #ea6f7b;
   text-align: center;
   padding-bottom: 80px;
   padding-top: 80px;
 }
 
 .horizontal-line {
-  border-top: 3px solid #f6cfca;
+  border-top: 3px solid #f3cfd0;
   width: 20%;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -80,7 +83,7 @@ a:hover {
 
 .active {
   font-weight: bold;
-  color: #f6cfca;
+  color: #f6ada8;
 }
 
 .bio,
@@ -116,7 +119,7 @@ a:hover {
 
 .skills {
   font-family: "poppins", sans-serif;
-  background-color: #9a9a9a;
+  background-color: #bcbcbf;
   color: whitesmoke;
   text-align: center;
   padding-bottom: 100px;
@@ -135,22 +138,21 @@ a:hover {
 }
 
 .fa-arrow-down {
-  color: #b86b77;
+  color: #ea6f7b;
 }
 
 .btn {
-  color: #b86b77;
+  background-color: #f3cfd0;
+  color: #ea6f7b;
   border-radius: 10px;
-  border: 0.5px solid #b86b77;
 }
 
 .btn:hover {
-  background-color: #ffe8e5;
-  color: #b86b77;
-  border: 0.5px solid #b86b77;
+  background-color: #f6ada8;
+  color: #ea6f7b;
   transition: filter 0.2s ease;
 }
-
+/* CHANGE */
 .project-underline {
   position: absolute;
   top: 10%;
@@ -167,11 +169,11 @@ a:hover {
 }
 
 .mod-btn {
-  color: #b86b77;
+  color: #ea6f7b;
 }
 
 .mod-btn:hover {
-  color: #b86b77;
+  color: #ea6f7b;
 }
 
 .modal-content {
@@ -199,9 +201,9 @@ a:hover {
 
 .sticky-footer {
   text-align: center;
-  background-color: #9a9a9a;
+  background-color: #d5d9dd;
   color: whitesmoke;
-  border-top: 8px solid #ffe8e5;
+  border-top: 8px solid #f3cfd0;
   height: 90px;
 }
 
