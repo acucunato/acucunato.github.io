@@ -216,6 +216,10 @@ a:hover {
   .project-list {
     width: auto;
   }
+  .modal-content {
+    width: 400px;
+  }
+
   #icon-row {
     display: grid;
   }
@@ -233,13 +237,17 @@ a:hover {
   .project-list {
     width: auto;
   }
+
+  .modal-content {
+    width: 400px;
+  }
+
   #icon-row {
     display: grid;
   }
   #jumbotron-text {
     font-size: 45px;
   }
-
   #main-text {
     font-size: 20px;
   }
