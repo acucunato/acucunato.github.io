@@ -152,14 +152,18 @@ a:hover {
   color: #ea6f7b;
   transition: filter 0.2s ease;
 }
-/* CHANGE */
+
 .project-underline {
   position: absolute;
   top: 10%;
   left: 40%;
-  border-top: 3px solid #f6cfca;
+  border-top: 3px solid #f3cfd0;
   width: 20%;
 }
+
+/* div.modal-open div.modal-backdrop {
+  z-index: 0;
+} */
 
 .mod-head {
   text-align: center;
@@ -216,10 +220,6 @@ a:hover {
   .project-list {
     width: auto;
   }
-  .modal-content {
-    width: 400px;
-  }
-
   #icon-row {
     display: grid;
   }
@@ -236,10 +236,6 @@ a:hover {
 @media (max-width: 576px) {
   .project-list {
     width: auto;
-  }
-
-  .modal-content {
-    width: 400px;
   }
 
   #icon-row {
