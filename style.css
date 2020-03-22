@@ -137,7 +137,8 @@ a:hover {
   visibility: hidden;
 }
 
-.fa-arrow-down {
+.fa-arrow-down,
+.fa-download {
   color: #ea6f7b;
 }
 
@@ -160,10 +161,6 @@ a:hover {
   border-top: 3px solid #f3cfd0;
   width: 20%;
 }
-
-/* div.modal-open div.modal-backdrop {
-  z-index: 0;
-} */
 
 .mod-head {
   text-align: center;
