@@ -1,5 +1,6 @@
 body {
   font-family: "raleway", sans-serif;
+  letter-spacing: 1px;
   position: relative;
 }
 
@@ -13,9 +14,17 @@ nav.scrolled {
   background-color: #bcbcbf;
 }
 
+h5 {
+  text-transform: lowercase;
+}
+
 i,
 a {
   color: whitesmoke;
+}
+
+h1 {
+  font-family: Galada;
 }
 
 i:hover,
@@ -49,10 +58,10 @@ a:hover {
 }
 
 #jumbotron-text {
-  font-family: "Abril Fatface", cursive;
+  font-family: Galada;
   text-align: center;
   color: #ea6f7b;
-  letter-spacing: 0.4em;
+  letter-spacing: 5px;
   font-size: 60px;
 }
 
@@ -66,7 +75,8 @@ a:hover {
 .about-me,
 .my-work,
 .resume {
-  font-family: "poppins", sans-serif;
+  font-family: Galada;
+  letter-spacing: 1px;
   background-color: whitesmoke;
   color: #ea6f7b;
   text-align: center;
@@ -90,6 +100,7 @@ a:hover {
 .skills-list,
 .resume {
   font-family: "raleway", sans-serif;
+  letter-spacing: 1px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -118,7 +129,8 @@ a:hover {
 }
 
 .skills {
-  font-family: "poppins", sans-serif;
+  font-family: Galada;
+  letter-spacing: 1px;
   background-color: #bcbcbf;
   color: whitesmoke;
   text-align: center;
@@ -144,12 +156,16 @@ a:hover {
 
 .btn {
   background-color: #f3cfd0;
+  letter-spacing: 1px;
+  text-transform: lowercase;
   color: #ea6f7b;
   border-radius: 10px;
 }
 
 .btn:hover {
   background-color: #f6ada8;
+  text-transform: lowercase;
+  letter-spacing: 1px;
   color: #ea6f7b;
   transition: filter 0.2s ease;
 }
@@ -164,7 +180,7 @@ a:hover {
 
 .mod-head {
   text-align: center;
-  font-family: "poppins", sans-serif;
+  font-family: Galada;
   margin-top: 20px;
   font-size: 25px;
 }
